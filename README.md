@@ -110,16 +110,23 @@ pytest tests/test_algorithms.py -v
 ## 🔗 Endpoints Principais
 
 Health Check
+
 GET /
 
 Estatísticas
+
 POST /estatisticas/media
+
 POST /estatisticas/mediana
+
 POST /estatisticas/desvio-padrao
+
 POST /estatisticas/resumo
 
 Vetores
+
 POST /vetores/distancia
+
 POST /vetores/escalar/{valor}
 
 ---
@@ -127,7 +134,9 @@ POST /vetores/escalar/{valor}
 ## ⚠️ Tratamento de Erros
 
 422 → Erro de validação dos dados
+
 400 → Regra de negócio inválida
+
 500 → Erro interno inesperado
 
 ---
